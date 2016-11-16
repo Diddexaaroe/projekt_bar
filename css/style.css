@@ -1,0 +1,71 @@
+/*This is the gradient*/
+
+#box1 {
+  background-color: yellow;
+  height: 415px;
+  width: 650px;
+  background: linear-gradient(to right, #72c5f7 , lightgreen);
+  position: relative;
+}
+
+/*Gradient can change, you can also write "to left", then it will come from the left side instead*/
+
+#box2 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient( blue , green);
+  float:right;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+#box3 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom left, #72c5f7, yellow, green);
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+#box4 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+#box5 {
+  height: 200px;
+  width: 500px;
+  background: linear-gradient(to right, red,orange,yellow,green,#72c5f7,indigo,violet);
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+
+p {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+/* This is the opacity*/
+
+#p1 {
+  color: rgba(255, 0, 0, 0.2);
+}
+
+#p2 {
+  color: rgba(255, 0, 0, 0.4);
+}
+
+#p3 {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+#p4 {
+  color: rgba(255, 0, 0, 0.8);
+}
